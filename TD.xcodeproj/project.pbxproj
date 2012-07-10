@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E600F5621505F8DC007C477D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E600F5611505F8DC007C477D /* UIKit.framework */; };
+		E600F5641505F8DC007C477D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E600F5631505F8DC007C477D /* Foundation.framework */; };
+		E600F5661505F8DC007C477D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E600F5651505F8DC007C477D /* CoreGraphics.framework */; };
+		E600F56C1505F8DC007C477D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E600F56A1505F8DC007C477D /* InfoPlist.strings */; };
+		E600F56E1505F8DC007C477D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E600F56D1505F8DC007C477D /* main.m */; };
+		E600F5721505F8DC007C477D /* TDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E600F5711505F8DC007C477D /* TDAppDelegate.m */; };
+		E600F5751505F8DC007C477D /* TDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E600F5741505F8DC007C477D /* TDViewController.m */; };
+		E600F5781505F8DC007C477D /* TDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E600F5761505F8DC007C477D /* TDViewController.xib */; };
+		E600F58515061AEF007C477D /* ToDoList.m in Sources */ = {isa = PBXBuildFile; fileRef = E600F58415061AEE007C477D /* ToDoList.m */; };
+		E600F588150623CE007C477D /* ToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E600F587150623CE007C477D /* ToDoItem.m */; };
+		E600F59F15064F46007C477D /* TDCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E600F59E15064F46007C477D /* TDCategory.m */; };
+		E600F5A61506527F007C477D /* TDScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E600F5A51506527F007C477D /* TDScrollView.m */; };
+		E600F5A915065418007C477D /* TDListCustomRow.m in Sources */ = {isa = PBXBuildFile; fileRef = E600F5A815065418007C477D /* TDListCustomRow.m */; };
+		E61A5D0D1509D4C9001D4072 /* TDStrikedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E61A5D0C1509D4C9001D4072 /* TDStrikedLabel.m */; };
+		E66AC43F1518955500480B79 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = E66AC43C1518955500480B79 /* arrow.png */; };
+		E66AC4401518955500480B79 /* empty_box.png in Resources */ = {isa = PBXBuildFile; fileRef = E66AC43D1518955500480B79 /* empty_box.png */; };
+		E66AC4411518955500480B79 /* full_box.png in Resources */ = {isa = PBXBuildFile; fileRef = E66AC43E1518955500480B79 /* full_box.png */; };
+		E67B1C19150F68110049E212 /* TDCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = E67B1C18150F68110049E212 /* TDCommon.m */; };
+		E6CF467415120CE600217B7A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6CF467315120CE600217B7A /* QuartzCore.framework */; };
+		E6DF60C615074CF000EF6177 /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = E6DF60C415074CF000EF6177 /* check.png */; };
+		E6DF60C715074CF000EF6177 /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = E6DF60C515074CF000EF6177 /* delete.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E600F55D1505F8DC007C477D /* TD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E600F5611505F8DC007C477D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E600F5631505F8DC007C477D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E600F5651505F8DC007C477D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E600F5691505F8DC007C477D /* TD-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TD-Info.plist"; sourceTree = "<group>"; };
+		E600F56B1505F8DC007C477D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E600F56D1505F8DC007C477D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E600F56F1505F8DC007C477D /* TD-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TD-Prefix.pch"; sourceTree = "<group>"; };
+		E600F5701505F8DC007C477D /* TDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDAppDelegate.h; sourceTree = "<group>"; };
+		E600F5711505F8DC007C477D /* TDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDAppDelegate.m; sourceTree = "<group>"; };
+		E600F5731505F8DC007C477D /* TDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDViewController.h; sourceTree = "<group>"; };
+		E600F5741505F8DC007C477D /* TDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDViewController.m; sourceTree = "<group>"; };
+		E600F5771505F8DC007C477D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TDViewController.xib; sourceTree = "<group>"; };
+		E600F58315061AEE007C477D /* ToDoList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoList.h; sourceTree = "<group>"; };
+		E600F58415061AEE007C477D /* ToDoList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoList.m; sourceTree = "<group>"; };
+		E600F586150623CE007C477D /* ToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoItem.h; sourceTree = "<group>"; };
+		E600F587150623CE007C477D /* ToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoItem.m; sourceTree = "<group>"; };
+		E600F59D15064F46007C477D /* TDCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDCategory.h; sourceTree = "<group>"; };
+		E600F59E15064F46007C477D /* TDCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDCategory.m; sourceTree = "<group>"; };
+		E600F5A41506527F007C477D /* TDScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDScrollView.h; sourceTree = "<group>"; };
+		E600F5A51506527F007C477D /* TDScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDScrollView.m; sourceTree = "<group>"; };
+		E600F5A715065418007C477D /* TDListCustomRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDListCustomRow.h; sourceTree = "<group>"; };
+		E600F5A815065418007C477D /* TDListCustomRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDListCustomRow.m; sourceTree = "<group>"; };
+		E61A5D0B1509D4C9001D4072 /* TDStrikedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDStrikedLabel.h; sourceTree = "<group>"; };
+		E61A5D0C1509D4C9001D4072 /* TDStrikedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDStrikedLabel.m; sourceTree = "<group>"; };
+		E66AC43C1518955500480B79 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		E66AC43D1518955500480B79 /* empty_box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = empty_box.png; sourceTree = "<group>"; };
+		E66AC43E1518955500480B79 /* full_box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = full_box.png; sourceTree = "<group>"; };
+		E67B1C17150F68110049E212 /* TDCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDCommon.h; sourceTree = "<group>"; };
+		E67B1C18150F68110049E212 /* TDCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDCommon.m; sourceTree = "<group>"; };
+		E67B1C1B150F68220049E212 /* TDConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDConstants.h; sourceTree = "<group>"; };
+		E6CF467315120CE600217B7A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E6DF60C415074CF000EF6177 /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
+		E6DF60C515074CF000EF6177 /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
+		E6DF60C9150751E700EF6177 /* TDDelegates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDDelegates.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E600F55A1505F8DC007C477D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6CF467415120CE600217B7A /* QuartzCore.framework in Frameworks */,
+				E600F5621505F8DC007C477D /* UIKit.framework in Frameworks */,
+				E600F5641505F8DC007C477D /* Foundation.framework in Frameworks */,
+				E600F5661505F8DC007C477D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E600F5521505F8DC007C477D = {
+			isa = PBXGroup;
+			children = (
+				E6CF467315120CE600217B7A /* QuartzCore.framework */,
+				E600F5671505F8DC007C477D /* TD */,
+				E600F5601505F8DC007C477D /* Frameworks */,
+				E600F55E1505F8DC007C477D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E600F55E1505F8DC007C477D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E600F55D1505F8DC007C477D /* TD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E600F5601505F8DC007C477D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E600F5611505F8DC007C477D /* UIKit.framework */,
+				E600F5631505F8DC007C477D /* Foundation.framework */,
+				E600F5651505F8DC007C477D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E600F5671505F8DC007C477D /* TD */ = {
+			isa = PBXGroup;
+			children = (
+				E6DF60C8150751B700EF6177 /* Delegates */,
+				E600F5A015065221007C477D /* Custom Views */,
+				E600F5891506280C007C477D /* Categories */,
+				E600F58215061AAC007C477D /* Model */,
+				E600F5701505F8DC007C477D /* TDAppDelegate.h */,
+				E600F5711505F8DC007C477D /* TDAppDelegate.m */,
+				E600F5731505F8DC007C477D /* TDViewController.h */,
+				E600F5741505F8DC007C477D /* TDViewController.m */,
+				E600F5761505F8DC007C477D /* TDViewController.xib */,
+				E6DF60C315074CF000EF6177 /* Images */,
+				E600F5681505F8DC007C477D /* Supporting Files */,
+			);
+			path = TD;
+			sourceTree = "<group>";
+		};
+		E600F5681505F8DC007C477D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E600F5691505F8DC007C477D /* TD-Info.plist */,
+				E600F56A1505F8DC007C477D /* InfoPlist.strings */,
+				E600F56D1505F8DC007C477D /* main.m */,
+				E600F56F1505F8DC007C477D /* TD-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E600F58215061AAC007C477D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E600F58315061AEE007C477D /* ToDoList.h */,
+				E600F58415061AEE007C477D /* ToDoList.m */,
+				E600F586150623CE007C477D /* ToDoItem.h */,
+				E600F587150623CE007C477D /* ToDoItem.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E600F5891506280C007C477D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E600F59D15064F46007C477D /* TDCategory.h */,
+				E600F59E15064F46007C477D /* TDCategory.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		E600F5A015065221007C477D /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				E600F5A41506527F007C477D /* TDScrollView.h */,
+				E600F5A51506527F007C477D /* TDScrollView.m */,
+				E600F5A715065418007C477D /* TDListCustomRow.h */,
+				E600F5A815065418007C477D /* TDListCustomRow.m */,
+				E61A5D0B1509D4C9001D4072 /* TDStrikedLabel.h */,
+				E61A5D0C1509D4C9001D4072 /* TDStrikedLabel.m */,
+			);
+			name = "Custom Views";
+			sourceTree = "<group>";
+		};
+		E6DF60C315074CF000EF6177 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E66AC43C1518955500480B79 /* arrow.png */,
+				E66AC43D1518955500480B79 /* empty_box.png */,
+				E66AC43E1518955500480B79 /* full_box.png */,
+				E6DF60C415074CF000EF6177 /* check.png */,
+				E6DF60C515074CF000EF6177 /* delete.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		E6DF60C8150751B700EF6177 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				E6DF60C9150751E700EF6177 /* TDDelegates.h */,
+				E67B1C17150F68110049E212 /* TDCommon.h */,
+				E67B1C18150F68110049E212 /* TDCommon.m */,
+				E67B1C1B150F68220049E212 /* TDConstants.h */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E600F55C1505F8DC007C477D /* TD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E600F57B1505F8DC007C477D /* Build configuration list for PBXNativeTarget "TD" */;
+			buildPhases = (
+				E600F5591505F8DC007C477D /* Sources */,
+				E600F55A1505F8DC007C477D /* Frameworks */,
+				E600F55B1505F8DC007C477D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TD;
+			productName = TD;
+			productReference = E600F55D1505F8DC007C477D /* TD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E600F5541505F8DC007C477D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = E600F5571505F8DC007C477D /* Build configuration list for PBXProject "TD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E600F5521505F8DC007C477D;
+			productRefGroup = E600F55E1505F8DC007C477D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E600F55C1505F8DC007C477D /* TD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E600F55B1505F8DC007C477D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E600F56C1505F8DC007C477D /* InfoPlist.strings in Resources */,
+				E600F5781505F8DC007C477D /* TDViewController.xib in Resources */,
+				E6DF60C615074CF000EF6177 /* check.png in Resources */,
+				E6DF60C715074CF000EF6177 /* delete.png in Resources */,
+				E66AC43F1518955500480B79 /* arrow.png in Resources */,
+				E66AC4401518955500480B79 /* empty_box.png in Resources */,
+				E66AC4411518955500480B79 /* full_box.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E600F5591505F8DC007C477D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E600F56E1505F8DC007C477D /* main.m in Sources */,
+				E600F5721505F8DC007C477D /* TDAppDelegate.m in Sources */,
+				E600F5751505F8DC007C477D /* TDViewController.m in Sources */,
+				E600F58515061AEF007C477D /* ToDoList.m in Sources */,
+				E600F588150623CE007C477D /* ToDoItem.m in Sources */,
+				E600F59F15064F46007C477D /* TDCategory.m in Sources */,
+				E600F5A61506527F007C477D /* TDScrollView.m in Sources */,
+				E600F5A915065418007C477D /* TDListCustomRow.m in Sources */,
+				E61A5D0D1509D4C9001D4072 /* TDStrikedLabel.m in Sources */,
+				E67B1C19150F68110049E212 /* TDCommon.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E600F56A1505F8DC007C477D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E600F56B1505F8DC007C477D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E600F5761505F8DC007C477D /* TDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E600F5771505F8DC007C477D /* en */,
+			);
+			name = TDViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E600F5791505F8DC007C477D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E600F57A1505F8DC007C477D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E600F57C1505F8DC007C477D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Megha Wadhwa (C9BKLU5SQ6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Megha Wadhwa (C9BKLU5SQ6)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TD/TD-Prefix.pch";
+				INFOPLIST_FILE = "TD/TD-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "00F223CD-B85E-4C9C-A66F-69D3395F9D27";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "00F223CD-B85E-4C9C-A66F-69D3395F9D27";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E600F57D1505F8DC007C477D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Megha Wadhwa (C9BKLU5SQ6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Megha Wadhwa (C9BKLU5SQ6)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TD/TD-Prefix.pch";
+				INFOPLIST_FILE = "TD/TD-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "00F223CD-B85E-4C9C-A66F-69D3395F9D27";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "00F223CD-B85E-4C9C-A66F-69D3395F9D27";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E600F5571505F8DC007C477D /* Build configuration list for PBXProject "TD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E600F5791505F8DC007C477D /* Debug */,
+				E600F57A1505F8DC007C477D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E600F57B1505F8DC007C477D /* Build configuration list for PBXNativeTarget "TD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E600F57C1505F8DC007C477D /* Debug */,
+				E600F57D1505F8DC007C477D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E600F5541505F8DC007C477D /* Project object */;
+}
